@@ -1,18 +1,30 @@
 
 
-.justify-right{
+.justify-right {
     justify-content: right;
 }
 
-.header{
-    display: inline-block;
-    justify-content: right;
-}
-
-.header h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 35px;
+.header {
     background-color: purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 25px;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 120%;
+}
+
+.header nav {
+    float: right;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li{
+    display: inline-block;
 }
 
 .float-left {
