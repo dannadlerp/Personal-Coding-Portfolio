@@ -1,30 +1,68 @@
+head{
+    background-color: gray;
+}
 
+header{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .justify-right {
     justify-content: right;
 }
 
+.rounded-image{
+    border-radius: 50%;
+}
+
+.section-info{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.section-info p{
+    margin: 100px;
+}
+
+.app-images{
+    align-items: center;
+}
+
+.app-images ul li{
+    display: block;
+}
+
 .header {
     background-color: purple;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 25px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .header h1 {
     display: inline-block;
-    font-size: 120%;
+    font-size: 200%;
 }
 
+.header h2 {
+    display: inline-block;
+    font-size: 150%;
+}
 .header nav {
     float: right;
 }
 
 .header nav ul {
     list-style-type: none;
+    margin-top: 50px;
+    font-weight: bold;
 }
 
 .header nav ul li{
     display: inline-block;
+    margin-right: 10px;
 }
 
 .float-left {
