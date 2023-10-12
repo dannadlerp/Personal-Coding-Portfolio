@@ -19,6 +19,13 @@ body{
     border-radius: 50%;
 }
 
+.app-title{
+    position: absolute; top: 50px; right: 25%;
+    background-color: rgb(3, 56, 56);
+    float: left;
+    
+}
+
 .section-info{
     flex-wrap: wrap;
     text-align: center;
@@ -34,6 +41,19 @@ body{
 
 .app-images ul li{
     display: block;
+}
+
+.app-images ul li section{
+    position: relative;
+    text-align: center;
+}
+
+.hover-effect:hover{
+    color: blue;
+}
+
+main img{
+    border: 10px solid color purple;
 }
 
 .header {
@@ -52,17 +72,25 @@ body{
 }
 .header nav {
     float: right;
+    color: white;
 }
 
 .header nav ul {
     list-style-type: none;
     margin-top: 50px;
     font-weight: bold;
+    color: white;
 }
 
 .header nav ul li{
     display: inline-block;
     margin-right: 10px;
+    color: white;
+
+}
+
+.text-color{
+    color: white;
 }
 
 .float-left {
@@ -71,4 +99,9 @@ body{
 
 .float-right {
     float: right;
+}
+
+.footer a{
+    margin-right: 100px;
+    text-align: center;
 }
