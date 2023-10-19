@@ -14,7 +14,7 @@ body{
 .justify-right {
     justify-content: right;
 }
-
+/* Making profile picture rounded*/
 .rounded-image{
     border-radius: 50%;
 }
@@ -24,6 +24,7 @@ body{
     background-color: rgb(3, 56, 56);
 }
 
+/* Making the main sections dynamic to adjust size based on display size*/
 .section-info{
     flex-wrap: wrap;
     text-align: center;
@@ -45,7 +46,7 @@ body{
     position: relative;
     text-align: center;
 }
-
+/*App titles change to blue when the app is hovered over*/
 .hover-effect:hover{
     color: blue;
 }
@@ -73,6 +74,7 @@ main img{
     color: white;
 }
 
+/*overriding default text style for navigation bar*/
 .header nav ul {
     list-style-type: none;
     margin-top: 50px;
