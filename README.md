@@ -9,4 +9,5 @@ When the employers opens the landing page, the prospective employees name, pictu
 
 
 Link to deployed App: https://dannadlerp.github.io/challengethirdweek/
-Screenshot of deployed App: ![image](https://github.com/dannadlerp/challengethirdweek/assets/142226474/43f9d033-b13f-4e27-9771-1df440c36eea
+Screenshot of deployed App: ![image](https://github.com/dannadlerp/Personal-Coding-Portfolio/assets/142226474/b80d02f8-7052-46d8-9972-b5966c89cc11)
+
